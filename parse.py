@@ -30,5 +30,6 @@ if __name__ == '__main__':
         days[dt.__format__('%A')] += 1
 
     # Print Results
-    for d in days:
-        print 'Day {}: {}'.format(d, days[d])
+    popular = [(v, k) for k,v in days.iteritems()]
+    for n, d in sorted(popular):
+        print ' {}: {}'.format(d, n)

@@ -1,4 +1,4 @@
-# PodcastRSSAnalysis
+# Podcast RSS Analysis
 Analyze podcast RSS feed metadata
 
 ## Setup
